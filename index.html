@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/moon.css" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
+
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section
+          data-background-image="https://blogs.iadb.org/caribbean-dev-trends/wp-content/uploads/sites/34/2017/12/Blockchain1.jpg"
+        ></section>
+        <section data-markdown>
+          <textarea data-template>
+						## Blockchain
+						— is a database with transactions, consisting of a sequentially built chain of digital blocks, each of which stores information about the previous and next blocks.
+						---
+						### What is the importance of blockchain technology?
+
+						Blockchain is a decentralized, tamper-proof system for recording transactions.
+						---
+						### How does blockchain work?
+			
+						Blockchain is a distributed data ledger system available to every member of this network.
+						Blocks in the network are added using the mining procedure.
+
+						---
+						The first algorithm for the work of miners, including bitcoin, was called **Proof-of-Work**. 
+It required a lot of computing power, which computers provided. 
+Therefore, now blockchains with the **Proof-of-Stake algorithm** have begun to appear, on which not machines rule the show, but validators - network participants responsible for its integrity and confirmation of all transactions occurring in the blockchain.
+
+						---
+						#### Step 1. Recording a transaction
+A blockchain transaction reflects the movement of physical or digital assets from one party to another in a blockchain network. It is written as a block of data and may include the following information:
+
+Who was involved in the deal?\
+What happened during the deal?\
+When was the deal made?\
+Where was the deal made?\
+What are the reasons for the deal?\
+How many assets have been transferred?\
+How many preconditions were met during the deal?
+---
+#### Step 2: Reach Consensus
+
+The majority of participants in the distributed blockchain network must confirm that the recorded transaction is valid. Depending on the type of network, the rules of the agreement may differ, but, as a rule, they are established at the beginning of the procedure.
+
+---
+#### Step 3. Bunch of blocks
+
+When participants reach consensus, transactions on the blockchain are written into blocks equivalent to ledger pages. Along with transactions, a cryptographic hash is added to the new block. The hash acts like a chain linking the blocks together. If the contents of a block are intentionally or accidentally changed, the hash value also changes, which helps to detect data forgery.
+
+---
+#### Step 4: Share the Registry
+The system distributes to all participants the latest copy of the central registry
+![how does a transaction get into the blockchain](https://www.euromoney.com/learning/~/media/4305AB9860D34A26ACBD34FCC9422684.png?la=en&hash=31AFCC82578BB687B747D53597B8487825DC2CFA)
+---
+### What types of blockchain networks exist?
+There are four main types of decentralized or distributed networks in blockchain:
+1. Public blockchains do not require permissions and allow anyone to join the network. ( Bitcoin, Ethereum, Litecoin and others)
+---
+2. Private blockchains, which can also be called managed, are controlled by a single entity. The authorized body determines who can be a participant and what rights they have in the network. Private blockchains are only partially decentralized as they include access restrictions. An example of a private blockchain is Ripple, a digital currency exchange platform.
+---
+3. A hybrid blockchain combines the features of both private and public networks. Companies can create both private and public permit systems. Thus, they control access to certain data on the blockchain, while still maintaining public access to other data. They use smart contracts that allow public participants to verify that private transactions are taking place.
+---
+4. Blockchain consortiums are run by a group of organizations. Pre-selected organizations share responsibility for the functioning of the blockchain and the definition of data access rights. Blockchain consortiums are often favored by like-minded companies that benefit from shared responsibility.
+					</textarea
+          >
+        </section>
+        <section data-markdown>
+          <textarea data-template>
+					## What are the possibilities of blockchain technology?
+					---
+					1. Decentralization in blockchain means the transfer of control and decision making from a centralized entity to a distributed network.
+					2. Immutability means that the data cannot be changed. No participant can intervene in a transaction once it has been entered into the ledger. If a record contains an error, then a new transaction must be added to correct it. Both transactions will be displayed online.
+					3. Consensus. The blockchain system establishes a set of rules by which participants approve transactions. New transactions can be registered only with the consent of the majority of network participants.
+					---
+					## What are the benefits of blockchain technology?
+					---
+					### Advanced security options
+Blockchain provides the high level of security and trust that modern digital transactions require.
+The three principles of the blockchain - cryptography, decentralization and consensus - provide the most secure underlying system, which is almost impossible to tamper with. The system has no weak points, and no user will be able to make changes to the transaction records.
+					---
+					### Increased efficiency
+					Blockchain features such as transparency and the use of smart contracts make such business transactions faster and more efficient.
+					### Faster audit
+					Recordings are stored in chronological order. This transparency of the data greatly speeds up the audit.
+				</textarea
+          >
+        </section>
+        <section
+          data-background-image="https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2021/08/04022409/WHAT-IS-BLOCKCHAIN.png"
+        ></section>
+        <section data-markdown>
+          <textarea data-template>
+					## Where is blockchain used?
+					---
+					Blockchain is needed where the speed and reliability of data transfer is important - that is, in almost any area of our life: when concluding smart contracts for the supply of goods, checking the results of electronic voting, or the operation of any cryptocurrency, such as bitcoin.
+					---
+					## How are different industries using blockchain?
+					---
+					1. Energy
+					Energy companies are using blockchain technology to create peer-to-peer energy trading platforms and facilitate access to renewable energy.
+					---
+					2. Finance
+					Traditional financial systems (such as banks and stock exchanges) use blockchain services to manage online payments, accounts, and market trading.
+					The introduction of blockchain technology has solved several problems, including batch processing and manual reconciliation of several thousand financial transactions.
+					---
+					3. Multimedia and entertainment
+					Media and entertainment companies use blockchain to manage copyright data. The successful application of the blockchain strategy has increased the effectiveness of copyright protection, while reducing costs
+					---
+					4. Retail
+					Retailers use blockchain to track the movement of goods between suppliers and customers. For example, Amazon has filed a patent for a distributed ledger system that will use blockchain technology to verify the authenticity of all items sold on the platform.
+					---
+					# Thank you for your attention!
+					</textarea
+          >
+        </section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
+</html>
